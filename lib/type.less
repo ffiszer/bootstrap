@@ -6,8 +6,14 @@
 // BODY TEXT
 // ---------
 
+body{
+  #font > .sans-serif();	
+  -webkit-text-size-adjust:none;
+  color: @textColor;
+}
+
 p {
-  #font > .shorthand(normal,@basefont,@baseline);
+  #font > .shorthand();
   margin-bottom: @baseline / 2;
   small {
     font-size: @basefont - 2;

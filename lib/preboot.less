@@ -6,6 +6,9 @@
 // VARIABLES
 // ---------
 
+// Text
+@textColor:         #444;
+
 // Links
 @linkColor:         #0069d6;
 @linkColorHover:    darken(@linkColor, 10);
@@ -29,14 +32,20 @@
 @purple:            #7a43b6;
 
 // Baseline grid
-@basefont:          13px;
-@baseline:          18px;
+@basefont:          14px;
+@baseline:          22px;
 
 // Griditude
 @gridColumns:       16;
 @gridColumnWidth:   40px;
 @gridGutterWidth:   20px;
 @siteWidth:         (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
+
+// Griditude - fluid
+@fluidColumns:       16;
+@fluidColumnWidth:   4.175%;
+@fluidGutterWidth:   2.21766%;
+@maxSiteWidth:		940px; //Fluid grid
 
 // Color Scheme
 @baseColor:         @blue;                  // Set a base color
